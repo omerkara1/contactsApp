@@ -1,0 +1,50 @@
+body {
+  background-color: #1d272c;
+}
+
+#container {
+  width: 400px;
+  background-color: #daaa1b;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+input {
+  width: 100%;
+  padding: 5px;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+ul > li > span {
+  display: block;
+}
+
+.list {
+  margin: 15px 0;
+}
+
+.list > li {
+  background-color: darkcyan;
+  padding: 5px;
+  margin-bottom: 2px;
+}
+
+.btn {
+  display: flex;
+  justify-content: flex-end;
+  padding: 10px 0;
+}
+
+.btn > button {
+  padding: 5px;
+  width: 60px;
+}
