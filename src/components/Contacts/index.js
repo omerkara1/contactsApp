@@ -7,15 +7,15 @@ import Form from "./Form";
 function Contacts() {
   const [contacts, setContacts] = useState([
     {
-      fullname: "Laz Ziya",
+      fullname: "Kodluyoruz Org",
       phone_number: "147852",
     },
     {
-      fullname: "Süleyman Çakır",
+      fullname: "Patika Dev",
       phone_number: "369852",
     },
     {
-      fullname: "Memati Baş",
+      fullname: "Mehmet Seven",
       phone_number: "862486",
     },
   ]);
